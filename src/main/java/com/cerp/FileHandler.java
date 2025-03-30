@@ -25,8 +25,9 @@ public class FileHandler<T> {
      * @param filename nombre del archivo a manejar.
      */
     public FileHandler(String filename) {
-        this.filename = filename;
-    }
+       // Usa la ruta relativa desde la raíz del proyecto
+    this.filename = "src/main/resources/" + filename;
+}
     
     /**
      * Lee las preguntas desde el archivo.
