@@ -22,11 +22,11 @@ public class Preguntas implements Serializable, List<Pregunta> {
         this.listaPreguntas = new ArrayList<>();
 
         // Agregar 5 preguntas con el formato correcto
-        listaPreguntas.add(new Pregunta(1, "¿Qué es Java?", "Lenguaje de programación", new String[]{"Lenguaje de programación", "Sistema operativo", "Base de datos"}));
-        listaPreguntas.add(new Pregunta(2, "¿Qué es la Programación Orientada a Objetos?", "Un paradigma de programación", new String[]{"Un lenguaje de programación", "Un paradigma de programación", "Una base de datos"}));
-        listaPreguntas.add(new Pregunta(3, "¿Qué es una clase en Java?", "Es un modelo o plantilla para crear objetos", new String[]{"Es un objeto", "Es una variable", "Es un modelo o plantilla para crear objetos"}));
-        listaPreguntas.add(new Pregunta(4, "¿Qué es un objeto en Java?", "Es una instancia de una clase", new String[]{"Es una función", "Es una instancia de una clase", "Es un tipo de variable"}));
-        listaPreguntas.add(new Pregunta(5, "¿Qué es la herencia en Java?", "Un mecanismo para reutilizar código", new String[]{"Una forma de copiar código", "Un mecanismo para reutilizar código", "Una estructura de datos"}));
+        listaPreguntas.add(new Pregunta(1, "¿Qué es Java?", "Lenguaje de programación", new String[]{"Lenguaje de programación", "Sistema operativo", "Base de datos", "Compilador", "Framework"}));
+        listaPreguntas.add(new Pregunta(2, "¿Qué es la Programación Orientada a Objetos?", "Un paradigma de programación", new String[]{"Un lenguaje de programación", "Un paradigma de programación", "Una base de datos", "Una metodología de diseño", "Un conjunto de reglas"}));
+        listaPreguntas.add(new Pregunta(3, "¿Qué es una clase en Java?", "Es un modelo o plantilla para crear objetos", new String[]{"Es un objeto", "Es una variable", "Es un modelo o plantilla para crear objetos", "Un método especial", "Es un tipo de dato"}));
+        listaPreguntas.add(new Pregunta(4, "¿Qué es un objeto en Java?", "Es una instancia de una clase", new String[]{"Es una función", "Es una instancia de una clase", "Es un tipo de variable", "Es un archivo", "Es un procedimiento"}));
+        listaPreguntas.add(new Pregunta(5, "¿Qué es la herencia en Java?", "Un mecanismo para reutilizar código", new String[]{"Una forma de copiar código", "Un mecanismo para reutilizar código", "Una estructura de datos", "Un concepto de base de datos", "Un patrón de diseño"}));
     }
 
     // Métodos Getter y Setter
